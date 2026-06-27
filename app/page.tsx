@@ -16,7 +16,7 @@ export default function HRDashboard() {
     
     try {
       // 2. Replace this URL with your ACTUAL Render URL
-      const response = await fetch('https://attrition-api-3rgc.onrender.com', {
+      const response = await fetch('https://attrition-api-3rgc.onrender.com/docs', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData)
